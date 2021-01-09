@@ -1,8 +1,8 @@
 #!/bin/bash
 
-echo "Hello Students"
+greeting="welcome"
+user=(whoami)
+day=$(date +%A)
 
-#i love lambos
-
-echo "anything" 
-vdfhbfgbdfghetr
+echo "greeting back $user! Today is $day, which is the best day of the week!"
+echo "Your Bash shell version is: $BASH_VERSION. Enjoy!"
